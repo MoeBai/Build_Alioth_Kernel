@@ -61,7 +61,7 @@ jobs:
       # 6. 进入内核目录并运行 build.sh 脚本
       - name: Run Kernel build.sh
         run: |
-          cd /kernel
+          cd kernel
           ./build.sh alioth ksu
 
       # 7. 上传构建工件
