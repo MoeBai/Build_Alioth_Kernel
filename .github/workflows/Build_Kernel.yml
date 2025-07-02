@@ -65,7 +65,7 @@ jobs:
 
       # 7. 上传构建工件
       - name: Upload Kernel Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: kernel-artifacts
           path: /tmp/kernel_xiaomi_sm8250_mod/output/*
